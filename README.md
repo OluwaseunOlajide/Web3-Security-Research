@@ -14,9 +14,9 @@
 <h3>DISCLAIMER</h3>
 <p> Security evolves so some vulnerabilities may no longer exist and some issues may have been undiscovered</p>
 <h2>MY AUDITS SO FAR</h2>
-<li><a href="https://github.com/OluwaseunOlajide/AUDITS-/tree/main/blendcertora">blend certora Audit on C4</a></li>
+<li><a href="https://github.com/OluwaseunOlajide/AUDITS-/tree/main/blendcertora">blend certora Audit on C4</a></li><br>
 
-<div>
+<div style="position: absolute; bottom">
 <img href src = "https://img.shields.io/github/commit-activity/m/OluwaseunOlajide/OLAJIDEOLUWASEUNaudits">
 </div>
  
