@@ -9,7 +9,7 @@
 | Protocol | Severity | Category | Status | Context | Date |
 |----------|----------|----------|--------|---------|------|
 | NADO Protocol | High    | Logic Error | Duplicate (confirmed) | Hackenproof - he Endpoint contract facilitates a "Slow Mode" mechanism to allow users to force transactions (such as deposits and withdrawals) when the Sequencer is down or censoring them.  | December 2025 |
-| 1INCHAQUA | None | Fee on transger error | out of scope | HackenProof - The Aqua contract updates the internal credit ledger (balance.store) based on the input amount parameter, but executes the token transfer using safeTransferFrom. If the token deducts a transfer fee, the amount received by the Maker is strictly less than the amount credited in the Aqua ledger.| december 2025|
+| 1INCHAQUA | None | Fee on transfer error | out of scope | HackenProof - The Aqua contract updates the internal credit ledger (balance.store) based on the input amount parameter, but executes the token transfer using safeTransferFrom. If the token deducts a transfer fee, the amount received by the Maker is strictly less than the amount credited in the Aqua ledger.| december 2025|
 
 > **Note on Disputed Findings:** The 1INCHAQUA report was marked out-of-scope post-submission due to contest boundary definitions. The technical validity of the finding remains sound; documentation available in `/01-Competitive-Audits`.
 
