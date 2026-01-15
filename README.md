@@ -14,8 +14,6 @@
 | NADO Protocol | None | Tainted Input | Out of scope | HackenProof - The burnNlp function in Clearinghouse.sol calculates the USDC payout for burning NLP tokens using the formula: quoteAmount = nlpAmount.mul(oraclePriceX18). Just like the mintNlp function, this oraclePriceX18 is derived directly from user-supplied transaction data without validation against an on-chain Oracle.| December 2025 | 
 | NADO Protocol | None | Logic Errors | Out of scope | Hackenproof - The protocol relies on a "Socialization" mechanism to handle insolvent accounts (where the user's debt exceeds their assets and the Insurance Fund is depleted). | December 2025 |
 | 1INCHAQUA | None | Fee on transger error | out of scope | HackenProof - The Aqua contract updates the internal credit ledger (balance.store) based on the input amount parameter, but executes the token transfer using safeTransferFrom. If the token deducts a transfer fee, the amount received by the Maker is strictly less than the amount credited in the Aqua ledger.| december 2025|
-| Blend         | None  | Logic Error |  Considered as Spam | Code4arena - The report was so bad i can not even tell also my first bounty contest | March 2025 |
-| Blend         | None  | Bug fixes   | Considered as spam | Code4arena - It was my first ever report mistakes were made | March 2025 |
 
 > **Note on Disputed Findings:** The NADO Critical was marked out-of-scope post-submission due to contest boundary definitions. The technical validity of the finding remains sound; documentation available in `/01-Competitive-Audits`.
 
